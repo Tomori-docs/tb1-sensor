@@ -1,0 +1,4 @@
+- Smart
+- Active
+- Adaptive
+- Intelligent
