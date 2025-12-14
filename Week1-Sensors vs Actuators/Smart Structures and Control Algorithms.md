@@ -6,3 +6,5 @@ driven by a set of control algorithms. => The control law could be open-loop
 or closed-loop.
 ➢ Open-loop system: Relies on pre-set inputs.
 ➢ Closed-loop system: Uses sensed feedback to maintain a desired output.
+
+![](/file/2/BP83ClysIGCASomtvesI2.png)

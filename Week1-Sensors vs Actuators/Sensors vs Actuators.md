@@ -9,3 +9,8 @@ quantities (Inputs) into mechanical (Outputs).
 • Conversion principle: Principles to convert mechanical into electrical
 quantities and vice versa. => Some principles work in both directions.
 
+
+![](/file/2/9ybmaEx7L5cSjvk7D9qys.png)
+Fig 1. Conversion principles and
+input/output quantities of sensors
+and actuators.

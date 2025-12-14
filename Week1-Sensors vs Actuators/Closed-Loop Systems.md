@@ -13,3 +13,5 @@ continuously measures the actual
 furnace temperature. The controller
 compares it to the setpoint and adjusts
 heating if there’s any deviation.
+
+![](/file/2/Hnna-06ItE5fhrogGKQQn.png)
