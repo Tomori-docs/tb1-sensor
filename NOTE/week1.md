@@ -1,40 +1,39 @@
+## ⚡️ 第一周：数字与模拟电路
 
-## ⚡️ Week 1: Digital and Analogue Circuits
-
-These notes cover the fundamental differences between digital and analogue circuits, the core components of digital electronics, and the distinction between combinational and sequential logic.
+这些笔记涵盖了数字与模拟电路之间的根本区别、数字电子学的核心组件，以及组合逻辑与时序逻辑的区分。
 
 ---
 
-### Analogue vs. Digital Circuits
+### 模拟电路 vs. 数字电路
 
-| Type | Description | Advantages | Disadvantages |
+| 类型 | 描述 | 优点 | 缺点 |
 | :--- | :--- | :--- | :--- |
-| **Analogue** | Use signals with **continuous, smoothly varying values**. | High precision; direct measurement is easy. | Susceptible to noise; needs calibration. |
-| **Digital** | Use signals represented in **discrete steps** (usually binary: 0 and 1). | Noise-resistant; easier integration. | Limited to discrete states; sometimes less precise. |
+| **模拟电路** | 使用**连续、平滑变化**的信号值。 | 精度高；直接测量容易。 | 易受噪声影响；需要校准。 |
+| **数字电路** | 使用**离散阶梯**（通常是二进制：0 和 1）表示的信号。 | 抗噪声能力强；易于集成。 | 限于离散状态；有时精度较低。 |
 
 ---
 
-### 💾 Foundation of Digital Circuits
+### 💾 数字电路的基础
 
-* **Logic Gates:** These are basic electronic components that process binary signals to perform logical operations. They form the foundation of digital circuits.
-    * **AND Gate:** Outputs 1 only if **all** inputs are 1.
-    * **OR Gate:** Outputs 1 if **at least one** input is 1.
-    * **NOT Gate:** **Inverts** the input (outputs 1 if input is 0, and vice versa).
-    * Other types include NAND, NOR, XOR, and XNOR gates.
-* **Flip-flops:** Fundamental circuits that store a single binary bit (0 or 1). They act as basic memory elements.
+*   **逻辑门（Logic Gates）：** 这些是处理二进制信号以执行逻辑运算的基本电子元件。它们构成了数字电路的基础。
+    *   **与门（AND Gate）：** 仅当**所有**输入为 1 时，输出 1。
+    *   **或门（OR Gate）：** 如果**至少一个**输入为 1，则输出 1。
+    *   **非门（NOT Gate）：** **反转**输入（输入为 0 则输出 1，反之亦然）。
+    *   其他类型包括与非门（NAND）、或非门（NOR）、异或门（XOR）和同或门（XNOR）。
+*   **触发器（Flip-flops）：** 存储单个二进制位（0 或 1）的基本电路。它们充当基本存储元件。
 
 ---
 
-### 🧠 Combinational vs. Sequential Logic
+### 🧠 组合逻辑 vs. 时序逻辑
 
-This is a key distinction in how digital circuits process information:
+这是数字电路处理信息方式的一个关键区分：
 
-| Feature | Combinational Logic | Sequential Logic |
+| 特性 | 组合逻辑 | 时序逻辑 |
 | :--- | :--- | :--- |
-| **Memory** | None | Yes (uses flip-flops/latches) |
-| **Output Depends** | Present inputs only | Present inputs + previous state |
-| **Speed** | Fast | Slower (clock dependent) |
-| **Components** | Logic gates | Logic gates + memory |
-| **Examples** | Adder, Multiplexer | Counter, Register |
+| **存储（Memory）** | 无 | 有（使用触发器/锁存器） |
+| **输出取决于** | 仅当前输入 | 当前输入 + 先前状态 |
+| **速度（Speed）** | 快 | 较慢（取决于时钟） |
+| **组件（Components）** | 逻辑门 | 逻辑门 + 存储器 |
+| **示例（Examples）** | 加法器（Adder），多路复用器（Multiplexer） | 计数器（Counter），寄存器（Register） |
 
 ---

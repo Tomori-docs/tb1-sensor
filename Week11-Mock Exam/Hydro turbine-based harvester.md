@@ -1,29 +1,11 @@
-Q13: Determine the height 𝐻 for a 12 W hydro turbine-based harvester if it experiences
-a water flowrate Q = 0.002m3
-/s, the water density is 𝜌 = 1000kg/m3
-, 𝑔 = 9.81m/s
-2
-and
-the harvester converts 40% of that into usable electrical power.
 
 
+## 💧 Q13: Determine the height $H$ for a 12 W hydro turbine-based harvester
 
-## 📐 设计练习：电容器储存的能量
-
-* 这是一个关于如何运用**基础方程**（例如我们在课堂迷你练习中使用的那些）来解决**设计练习**的例子。
-
-* 我们知道电容器中储存的**总能量**是：
-    $$E = \frac{1}{2} C V^2$$
-
-* 对于一个**理想的平行板电容器**，其电容 $C$ 为：
-    $$C = \frac{\epsilon A}{d}$$
-
-* **因此：**
-    $$E = \frac{1}{2} C V^2 = E = \frac{1}{2} \left(\frac{\epsilon A}{d}\right) V^2$$
-
-* 所以**正确答案是 C**。
+Determine the height $H$ for a **12 W** hydro turbine-based harvester if it experiences a water flowrate $Q = 0.002 m^3/s$, the water density is $\rho = 1000 kg/m^3$, $g = 9.81 m/s^2$ and the harvester converts **40%** of that into usable electrical power. (10 marks)
 
 ---
+
 
 ## 💧 理论练习：流体机械输出功率
 

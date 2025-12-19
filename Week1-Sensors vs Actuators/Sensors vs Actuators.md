@@ -8,8 +8,7 @@ external energy to do the conversion, it is classified as a passive sensor.
 quantities (Inputs) into mechanical (Outputs).
 • Conversion principle: Principles to convert mechanical into electrical
 quantities and vice versa. => Some principles work in both directions.
-
-
+2
 ![](/file/2/9ybmaEx7L5cSjvk7D9qys.png)
 Fig 1. Conversion principles and
 input/output quantities of sensors
