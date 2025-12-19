@@ -1,31 +1,30 @@
-
 ---
 
-## 📝 Pre-lecture Review Notes (Week 4) - F.A.Hassani
+## 📝 课前复习笔记（第4周）- F.A.Hassani
 
-### **Light Scattering**
-Refers to the process by which light is deflected or redirected when it interacts with particles, atoms, or irregularities in a medium — instead of traveling straight through.
+### **光散射（Light Scattering）**
+指光在与介质中的粒子、原子或不规则结构相互作用时，发生偏转或改变方向的过程，而非直线传播。
 
-### **Rayleigh Scattering**
-Elastic scattering of light by particles much smaller than the wavelength of light (e.g., air molecules).
-> (Elastic: scattered photons have the same energy (same wavelength) as incident photons.)
+### **瑞利散射（Rayleigh Scattering）**
+由远小于光波长的粒子（如空气分子）引起的光的弹性散射。
+> （弹性：散射光子与入射光子具有相同的能量（相同的波长）。）
 
-### **Raman Scattering**
-Inelastic scattering of light caused by interaction with vibrational or rotational energy levels of molecules.
-> (Inelastic: scattered photons have different energy than the incident photons.)
+### **拉曼散射（Raman Scattering）**
+由光与分子的振动或转动能级相互作用引起的非弹性散射。
+> （非弹性：散射光子的能量与入射光子不同。）
 
-### **PIN Photodetectors**
+### **PIN 光电探测器**
 [https://www.neoncq.com/understanding-pin-photodetectors-and-their-role-in-optical-communication](https://www.neoncq.com/understanding-pin-photodetectors-and-their-role-in-optical-communication)
 
-### **Avalanche-type Photodiodes**
-An avalanche photodiode (APD) is a highly sensitive semiconductor photodetector that converts light into electrical current — similar to a regular photodiode — but with internal gain due to an **avalanche multiplication process**.
+### **雪崩型光电二极管**
+雪崩光电二极管 (APD) 是一种高灵敏度半导体光电探测器，可将光转换为电流，与普通光电二极管类似，但通过**雪崩倍增过程**具有内部增益。
 
-#### Working principle:
-* APDs are typically made from p-i-n structures.
-* They are reverse-biased at a high voltage (usually 50–400 V).
-* When a photon enters the depletion region, it generates an electron-hole pair.
-* Under the strong electric field, these charge carriers are accelerated to high kinetic energy.
-* These energetic carriers collide with the crystal lattice and create additional electron-hole pairs by **impact ionization**.
-* This leads to a chain reaction called an **avalanche**, multiplying the current.
+#### 工作原理：
+* APD 通常由 p-i-n 结构制成。
+* 它们被反向偏置在高压下（通常为 50–400 V）。
+* 当光子进入耗尽区时，会产生电子-空穴对。
+* 在强电场作用下，这些载流子被加速到高动能。
+* 这些高能载流子与晶格碰撞，通过**碰撞电离（impact ionization）** 产生额外的电子-空穴对。
+* 这导致一个称为**雪崩（avalanche）** 的链式反应，从而放大电流。
 
 ---

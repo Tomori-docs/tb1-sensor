@@ -1,28 +1,25 @@
-
-## Pre-lecture review notes (Week 3)- F.A.Hassani
+## 课前复习笔记（第3周）- F.A.Hassani
 
 ---
 
-* **Young's modulus ($E$):** A measure of the **stiffness** of a material with unit in Pascal (Pa). It quantifies how much a material resists deformation under stress (force per unit area). Specifically, it relates **stress ($\sigma$)** to **strain ($\varepsilon$)** in the linear elastic region of a material's stress–strain curve:
+* **杨氏模量（Young's modulus, $E$）：** 衡量材料**刚度**的指标，单位为帕斯卡 (Pa)。它量化了材料在应力（单位面积上的力）作用下抵抗形变的能力。具体来说，它将材料应力-应变曲线线弹性区域中的**应力 ($\sigma$)** 与**应变 ($\varepsilon$)** 联系起来：
 
     $$E = \sigma / \varepsilon$$
 
-    where, $\sigma = F/A$ (Force $F$ applied over area $A$) and $\varepsilon = \Delta L / L$ (change in length $\Delta L$ divided by original length $L$).
+    其中，$\sigma = F/A$（施加的力 $F$ 除以面积 $A$），$\varepsilon = \Delta L / L$（长度变化量 $\Delta L$ 除以原始长度 $L$）。
 
-* **Hooke's law for springs:** The extension of an elastic material is directly proportional to the applied force, provided the material has not exceeded its elastic limit.
+* **弹簧的胡克定律（Hooke's law for springs）：** 在材料未超过其弹性极限的前提下，弹性材料的伸长量与施加的力成正比。
 
     $$F = kx$$
 
-    where, $F$ is the applied force, $x$ is extension (displacement), and $k$ is the spring constant (stiffness, N/m).
+    其中，$F$ 是施加的力，$x$ 是伸长量（位移），$k$ 是弹簧常数（刚度，N/m）。
 
-* **Hooke's law for solid materials:** $\sigma = E\varepsilon$
-
----
-
-* **Neural Network:** A neural network is a computational model inspired by the way biological brains process information. It is made up of layers of interconnected nodes (neurons) that can learn to perform tasks like classification, prediction, or pattern recognition.
-
-* **Epoch:** One complete pass of the entire training dataset through the learning algorithm.
-
-* **Iteration:** One update of the model's parameters using a subset (called a **batch**) of the training data.
+* **固体材料的胡克定律（Hooke's law for solid materials）：** $\sigma = E\varepsilon$
 
 ---
+
+* **神经网络（Neural Network）：** 神经网络是一种受生物大脑处理信息方式启发的计算模型。它由相互连接的节点（神经元）层构成，可以学习执行分类、预测或模式识别等任务。
+
+* **轮次（Epoch）：** 整个训练数据集通过学习算法完成一次完整的传递。
+
+* **迭代（Iteration）：** 使用训练数据的一个子集（称为**批次 batch**）对模型参数进行一次更新。

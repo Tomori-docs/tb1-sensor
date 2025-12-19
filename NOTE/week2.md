@@ -1,54 +1,50 @@
-## Operational Amplifier (OP-AMP) and MOSFETs
+## 运算放大器 (OP-AMP) 与金属氧化物半导体场效应晶体管 (MOSFETs)
 
-### 💡 Ideal Operational Amplifier Characteristics
+### 💡 理想运算放大器的特性
 
-![](/file/2/LsnOR67oMFybzGbsKfzKF.png "Figure 1. Equivalent circuit of an ideal amplifier.")
+![](/file/2/LsnOR67oMFybzGbsKfzKF.png "图1. 理想放大器等效电路。")
 
-* **Input Terminals:** It has an **Inverting Input** ($V_1$) and a **Non-inverting Input** ($V_2$).
-* **Differential Input Voltage ($V_{DIFF}$):** This is the voltage difference between the non-inverting and inverting inputs.
-* **Supply Voltages:** It is powered by positive ($+V_{supply}$) and negative ($-V_{supply}$) supply voltages.
-* **Output Voltage ($V_{out}$):** The output voltage is given by the formula $V_{out} = -A(V_2 - V_1)$, where $A$ is the **Open-loop gain**.
+*   **输入端子：** 有一个**反相输入端 ($V_1$)** 和一个**同相输入端 ($V_2$)**。
+*   **差分输入电压 ($V_{DIFF}$)：** 这是同相输入端与反相输入端之间的电压差。
+*   **供电电压：** 由正电源 ($+V_{supply}$) 和负电源 ($-V_{supply}$) 供电。
+*   **输出电压 ($V_{out}$)：** 输出电压由公式 $V_{out} = -A(V_2 - V_1)$ 给出，其中 $A$ 是**开环增益（Open-loop gain）**。
 
-#### Key Ideal Assumptions:
+#### 关键理想假设：
 
-| Characteristic | Ideal Value | Purpose | Real World Range |
+| 特性 | 理想值 | 目的 | 实际范围 |
 | :--- | :--- | :--- | :--- |
-| **Input Impedance ($Z_{in}$)** | Infinite | Assumed to be infinite to prevent any current flowing from the source supply into the amplifier's input circuitry ($I_{IN}=0$). | Input leakage currents from a few pico-amps to a few milli-amps. |
-| **Output Impedance ($Z_{out}$)** | Zero | Assumed to be zero, acting as a perfect internal voltage source with no internal resistance so that it can supply as much current as necessary to the load. | $10\Omega$ to $20k\Omega$ range. |
-| **Open-loop Gain ($A$)** | Infinite | The main function of an operational amplifier is to amplify the input signal, and the more open-loop gain it has, the better. | Typical real values range from about 20,000 to 200,000. |
+| **输入阻抗 ($Z_{in}$)** | 无穷大 | 假设为无穷大，以防止任何电流从源供电流入放大器的输入电路 ($I_{IN}=0$)。 | 从几皮安到几毫安的输入泄漏电流。 |
+| **输出阻抗 ($Z_{out}$)** | 零 | 假设为零，充当一个理想的内部电压源，没有内阻，以便能够向负载提供所需的任意大电流。 | $10\Omega$ 到 $20k\Omega$ 范围。 |
+| **开环增益 ($A$)** | 无穷大 | 运算放大器的主要功能是放大输入信号，其开环增益越大越好。 | 典型实际值范围约为 20,000 至 200,000。 |
 
-### 🛠️ MOSFETs (Metal-Oxide-Semiconductor Field-Effect Transistors)
+### 🛠️ 金属氧化物半导体场效应晶体管
 
-A MOSFET is a voltage-controlled semiconductor device used for switching in digital circuits and amplification in analogue circuits.
+MOSFET 是一种电压控制型半导体器件，用于数字电路中的开关以及模拟电路中的放大。
 
-* **Types:** MOSFET could be **n-channel (NMOSFET)** using electrons as charge carriers or **p-channel (PMOSFET)** using holes as charge carriers.
+*   **类型：** MOSFET 可以是使用电子作为载流子的**N沟道 (NMOSFET)**，也可以是使用空穴作为载流子的**P沟道 (PMOSFET)**。
 
-#### Structure and Terminals:
+#### 结构与端子：
 
+MOSFET 结构包括：
+*   **半导体 (Semiconductor)**
+*   **氧化物 (Oxide)：绝缘体 (Insulator)**
+*   **金属 (Metal)**
 
+三个主要端子是：
+1.  **漏极 (Drain, D)**
+2.  **栅极 (Gate, G)**
+3.  **源极 (Source, S)**
 
-The MOSFET structure includes:
-* **Semiconductor**
-* **Oxide: Insulator**
-* **Metal**
+#### MOSFET 作为数字开关（控制电压 $g$）：
 
-The three main terminals are:
-1.  **Drain (D)**
-2.  **Gate (G)**
-3.  **Source (S)**
-
-#### MOSFETs as Digital Switches (Control Voltage $g$):
-
-| MOSFET Type | Control Voltage ($g$) | Equivalent Switch State | Action |
+| MOSFET 类型 | 控制电压 ($g$) | 等效开关状态 | 动作 |
 | :--- | :--- | :--- | :--- |
-| **NMOSFET** | $g=0$ | Open Switch (d to s) | **OFF**: No conduction between Drain (d) and Source (s). |
-| **NMOSFET** | $g=1$ | Closed Switch (d to s) | **ON**: Conduction between Drain (d) and Source (s). |
-| **PMOSFET** | $g=0$ | Closed Switch (d to s) | **ON**: Conduction between Drain (d) and Source (s). |
-| **PMOSFET** | $g=1$ | Open Switch (d to s) | **OFF**: No conduction between Drain (d) and Source (s). |
+| **NMOSFET** | $g=0$ | 开路开关 (d 到 s) | **截止 (OFF)**：漏极 (d) 和源极 (s) 之间不导通。 |
+| **NMOSFET** | $g=1$ | 闭合开关 (d 到 s) | **导通 (ON)**：漏极 (d) 和源极 (s) 之间导通。 |
+| **PMOSFET** | $g=0$ | 闭合开关 (d 到 s) | **导通 (ON)**：漏极 (d) 和源极 (s) 之间导通。 |
+| **PMOSFET** | $g=1$ | 开路开关 (d 到 s) | **截止 (OFF)**：漏极 (d) 和源极 (s) 之间不导通。 |
 
 
-![](/file/2/TY8Lsanlv6kzYa04v21FB.png "Figure 2. NMOSFET and PMOSFET as digital switches")
+![](/file/2/TY8Lsanlv6kzYa04v21FB.png "图2. NMOSFET 和 PMOSFET 作为数字开关")
 
-![](/file/2/dpSw2Qnd4fzMpxiboYn8J.png "Figure 3. Voltage application for MOSFETs as digital switches.")
-
----
+![](/file/2/dpSw2Qnd4fzMpxiboYn8J.png "图3. MOSFET 作为数字开关时的电压施加方式。")
